@@ -2,7 +2,7 @@
 title: 新手观鸟小记
 date: 2026-02-02
 lastmod: 2026-04-29
-image: black_phoebe.jpg
+image: https://github.com/user-attachments/assets/8bc8435f-4897-4490-b65e-24a74b0f00c4
 categories:
     - 沉迷观鸟
 ---
@@ -13,9 +13,9 @@ categories:
 
 第一件事是在天气刚刚转暖，我去Ed R. Levin County Park看山地草甸的时候，有一只上黑下白的小鸟落在了近处的栅栏上。我被它飞落下来的姿态吸引了。它扇动翅膀的方式有一种上下翻飞的感觉，简直像蝴蝶一样（虽然根本不一样，但这就是我当时心中冒出来的想法）。因为它貌似气定神闲地停在那，给了我拍照的机会，我也第一次打开了下载已久的merlin app，学会了它的名字，Black Phoebe，黑长尾霸鹟。当时我还不知道在这之后我会无数次见到它们，它们总是很给面子的站在暴露的perch上，等待着捕食飞虫。我见到它们太多次以至于当我得知Western Kingbird的数量是它们的六倍的时候大大吃了一惊。每次观鸟当中见到Black Phoebe总像见到老朋友，并且我总觉得它们会给我带来好运，让我见到更多的鸟儿。
 
-{{< figure src="black_phoebe_first.png" caption="我在Ed R. Levin County Park遇到的Black Phoebe" alt="我在Ed R. Levin County Park遇到的Black Phoebe" width="700" >}}
+{{< figure src="https://github.com/user-attachments/assets/df9b527e-6033-4aeb-8667-bebf5b2f2291" caption="我在Ed R. Levin County Park遇到的Black Phoebe" alt="我在Ed R. Levin County Park遇到的Black Phoebe" width="700" >}}
 
-{{< figure src="black_phoebe_2.jpg" caption="Black Phoebe 4.25摄于Byxbee Park" alt="Black Phoebe黑长尾霸鹟" width="700" >}}
+{{< figure src="https://github.com/user-attachments/assets/fbff3fd1-c5cf-45eb-8dd3-66b029b3963e" caption="Black Phoebe 4.25摄于Byxbee Park" alt="Black Phoebe黑长尾霸鹟" width="700" >}}
 
 第二件事是我玩到了Alba: A Wild Life Adventure这个游戏。在游戏里观鸟的体验很沉浸也很治愈，让我萌生了出门在现实中观鸟的想法。虽说游戏是设置在一个西班牙的小岛，但有的鸟儿分布之广，在北美大陆也很常见，比如我最爱的鸭子之一Northern Shoveler琵嘴鸭。真庆幸当时偶然看到了这个游戏的推荐，好多的偶然促成了我观鸟的开始！
 
@@ -25,24 +25,24 @@ categories:
 
 这是我人生的第一次正式的带着望远镜观鸟。仿佛游戏来到了现实生活中，还是说游戏异常成功地再造了一种我之前从未领略过的美妙现实？从前觉得平平无奇的橡树林（我甚至不知道这是橡树），野鸭子池塘，灌木丛，突然之间竟然成了我的游乐场。从前只是泛泛感叹一句“好美”的公园，仿佛与其它千千万万座公园一样的公园，霎那间从抽象变得具体。一开始，我没有听到任何声音，也没有看到任何鸟儿从空中飞过，不禁都要开始怀疑难道这地方有这么多树却没有鸟？我拿起望远镜在树上漫无目的地寻找。大自然很乐意给我这个新手以指引，不一会我就看到了一只头顶有红色的小鸟，我凭网上学到的知识依稀分辨出这是只啄木鸟。事后我了解到，这是一只橡树啄木鸟（Acorn Woodpecker）。它此时没有认真工作，只是有一搭没一搭地啄着树枝，看起来相当悠闲。我又走到池塘边，很快发现了我不认识的棕硬尾鸭（Ruddy Duck）和美洲骨顶鸡（Coot）。这里的Ruddy Duck小小一只，不断潜入水中觅食，浅蓝色的喙好美丽！
 
-{{< figure src="acorn_woodpecker.png" caption="Acorn Woodpecker - 我找到的第一只鸟！" alt="Acorn Woodpecker 我找到的第一只鸟！" width="500" >}}
+{{< figure src="https://github.com/user-attachments/assets/e256211d-b963-4568-ac77-1e00244837f1" caption="Acorn Woodpecker - 我找到的第一只鸟！" alt="Acorn Woodpecker 我找到的第一只鸟！" width="500" >}}
 
-{{< figure src="ruddy_duck.png" caption="很Q的Ruddy Duck" alt="很Q的Ruddy Duck" width="500" >}}
+{{< figure src="https://github.com/user-attachments/assets/4f72e2a7-1d0b-40f0-ac72-0860724929a9" caption="很Q的Ruddy Duck" alt="很Q的Ruddy Duck" width="500" >}}
 
 看完池塘的鸭子，我又走回小树林，想着这么多树肯定还有鸟，可是鸟在哪呢？有轻轻的鸟叫声。只闻其声不见其鸟。耐心等待一阵后我果然看到树上有东西在动，可是它们总不停下来，在茂密的叶间穿来穿去，只能看见一抹抹灰褐色的小影。过了好一会儿终于有一只停下来，露出半个头，我得以看清它头上的冠羽。这是我第一只靠描述识别的鸟，它的名字叫纯色冠山雀（Oak Titmouse）。Merlin Bird ID形容它为Completely nondescript。的确，它是一种平凡的小鸟，没有任何花纹，但是对我来说非常特别，非常可爱。在寒冷的冬天，它把羽毛蓬起来，是一只灰色的小鸟球。
 
 我沿着池塘边的芦苇荡前行，随时留意着周围的动静。我听到有一种哑哑的，略微刺耳的叫声。确定了声音的来源之后，我在一棵树上找到了我见到的第一只蜂鸟。它是加州常见的Anna's Hummingbird。我此前就对这种宝石一样华丽，有粉绿色金属光泽的蜂鸟有所耳闻。亲眼见到的时候，我却不能确定它是不是这一种蜂鸟。夕阳西下，我逆着光看这只鸟，并分辨不出它身上的颜色，只感觉是深色的。后来它很给面子地停在了较低的灌木上，我才确定有看到粉色。后来我了解到这是鸟类羽毛特殊的结构色，所以在不同的光线下看上去很不一样。它在树枝上歌唱一会儿，就飞到低处的灌木上，如此循环往复。这时候我意识到游戏里对鸟的行为刻画非常准确，也是在两三个地方之间不断飞来飞去，稍作停留。
 
-{{< figure src="annas_hummingbird.jpg" caption="Anna's Hummingbird 4.25摄于Byxbee Park" alt="Anna's Hummingbird 安式蜂鸟" width="700" >}}
+{{< figure src="https://github.com/user-attachments/assets/7559451a-1617-48ec-af05-b91a7eae1a56" caption="Anna's Hummingbird 4.25摄于Byxbee Park" alt="Anna's Hummingbird 安式蜂鸟" width="700" >}}
 
 ### Baylands Natural Reserve
 
 决定尝试观鸟之后，我与一位很喜欢鸟但还未开始观鸟的朋友约好一同去有名的Baylands Natural Reserve。San Francisco Bay是很多水鸟的越冬地，很大面积的滩涂为各种shorebirds提供了饭食。我之前就来过这个地方看风景，但当时一只鸟也不认识。无数的反嘴鹬，长嘴杓鹬，斑翅鹬，大黄脚鹬等等，在当时的我看来只是一大片面目模糊的灰白而已。从前我也觉得鸟很可爱，但是我跟他们是陌生人，我没有描述他们的语言。除了“看，那有好多白色的鸟”之外，我只能哑然失语。原来一直以来我都可以去认识它们！这件事好像简单得有些好笑，但以前我确实不知道该怎么做。
 
-{{< figure src="snowy_egret.jpg" caption="Snowy Egret 4.19摄于Shoreline Park" alt="Snowy Egret 雪鹭" width="700" >}}
+{{< figure src="https://github.com/user-attachments/assets/e7f8d273-1b63-44c5-8ae8-e1d97657cd6a" caption="Snowy Egret 4.19摄于Shoreline Park" alt="Snowy Egret 雪鹭" width="700" >}}
 
 言归正传，再次来到Baylands Natural Reserve，一走进来我就看到了一只雪鹭(Snowy Egret)，仙气飘飘。步道的另一侧浅滩里则站满了鹬，大部分都是反嘴鹬，夹杂着别的鹬。我和我的朋友有些日子没见了，这时便一边看一边聊最近的life updates。其实我内心只想专注观鸟，很想要仔细观察分辨这些鹬。不过我不想扫朋友的兴，就想着那先聊天，一会儿这条trail是原路返回还可以再仔细看一次。不料实在是太没有经验，走回来的时候过了一个小时，水位有些涨了，所有的鹬全都飞走了，一只不剩！我的心在默默流泪。不过还好一路上我们也看到不少别的鸟，有白冠带鹀、黄冠带鹀、大白鹭、绿头鸭、绿翅鸭、琵嘴鸭等等。说到这些鸭子，当时我以为看到的基本都是“普通”的绿头鸭，回来一看照片才发现根本就是很多不同的鸭子。之后再也不敢在池塘边随便指着一只头上有绿色的鸭子就大声公布“绿头鸭！”了。琵嘴鸭是在Alba的游戏剧情里有特别刻画的鸭子，所以我也对它情有独钟。另外，我们还看到了著名的“夜师傅”夜鹭。当时我们还以为是灰鹭，不过回来再一看它红眼睛和体态，立刻反应过来这是夜鹭了。
 
-{{< figure src="green-winged_teal.png" caption="一对绿翅鸭" alt="一对绿翅鸭" width="700" >}}
+{{< figure src="https://github.com/user-attachments/assets/2a180022-dd3f-4813-bfbe-c6db1d5f30df" caption="一对绿翅鸭" alt="一对绿翅鸭" width="700" >}}
 
-{{< figure src="black-crowned_night_heron.png" caption="夜鹭！" alt="夜鹭！" width="500" >}}
+{{< figure src="https://github.com/user-attachments/assets/be7b7ca7-f708-4e43-b8d4-c83ed8a8aa10" caption="夜鹭！" alt="夜鹭！" width="500" >}}

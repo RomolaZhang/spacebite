@@ -2,3 +2,12 @@ public/
 resources/_gen/
 .hugo_build.lock
 .DS_Store
+
+# Post images (hosted on GitHub CDN instead)
+content/post/**/*.jpg
+content/post/**/*.jpeg
+content/post/**/*.JPG
+content/post/**/*.png
+content/post/**/*.PNG
+content/post/**/*.gif
+content/post/**/*.webp

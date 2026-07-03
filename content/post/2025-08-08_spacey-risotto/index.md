@@ -3,7 +3,7 @@ title: 食材丰富的risotto
 date: 2025-08-08
 categories:
     - 俺滴菜谱
-image: salmon-risotto.jpg
+image: https://github.com/user-attachments/assets/bcea5738-fd59-4788-a69c-8a6f177fb3f2
 ---
 
 因为买了菌菇和三文鱼，前天我又做了risotto。有朋友来问菜谱所以我决定写一写我独家的risotto菜谱！（其实是集众家之所长）这是一个有很多可替换食材的菜谱，我觉得这是一道非常适合清冰箱的菜/饭，而且丰俭由人～我做饭的风格是很爱堆食材，主打一个多多益善，经常搞各种豪华拼配，所以
@@ -46,7 +46,7 @@ image: salmon-risotto.jpg
 
 展示一下我最近做的两道risotto。（之前也做过别的variation，可惜之前拍照技术比现在还菜，就不要放出来了qwq）。
 
-{{< figure src="salmon-risotto.jpg" caption="日式三文鱼菌菇烩饭" alt="日式三文鱼菌菇烩饭" width="600" >}}
+{{< figure src="https://github.com/user-attachments/assets/bcea5738-fd59-4788-a69c-8a6f177fb3f2" caption="日式三文鱼菌菇烩饭" alt="日式三文鱼菌菇烩饭" width="600" >}}
 
 
-{{< figure src="prosciutto-risotto.jpg" caption="火腿菌菇烩饭" alt="火腿菌菇烩饭" width="400" >}}
+{{< figure src="https://github.com/user-attachments/assets/8f8532b6-e994-43ed-af0d-e181e62d9dd3" caption="火腿菌菇烩饭" alt="火腿菌菇烩饭" width="400" >}}

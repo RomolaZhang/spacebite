@@ -3,7 +3,7 @@ title: 胡萝卜烧肉
 date: 2025-11-15
 categories:
     - 俺滴菜谱
-image: braised-pork-cover.png
+image: https://github.com/user-attachments/assets/ec9ffe34-cb7a-439a-babe-d20c60c8cee9
 ---
 
 这道菜选用的五花肉需要是带皮的，最好是肥瘦均匀相间有好几层的，切勿选择太薄的五花肉。做法非常之简单：
@@ -19,6 +19,6 @@ image: braised-pork-cover.png
 5. 开盖大火收干水，拌匀起锅即可。
 
 
-{{< figure src="braised-pork-with-carrots.jpg" caption="胡萝卜烧肉" alt="胡萝卜烧肉" width="500" >}}
+{{< figure src="https://github.com/user-attachments/assets/94526281-6e6b-433e-a433-eb482b638ddc" caption="胡萝卜烧肉" alt="胡萝卜烧肉" width="500" >}}
 
 
