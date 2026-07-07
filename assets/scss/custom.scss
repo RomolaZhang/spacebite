@@ -56,6 +56,10 @@
 }
 
 .lqip-wrap img {
+    /* img is inline by default, which reserves a few px below it for text
+       descenders — normally invisible, but here it exposes a sliver of the
+       blurred background underneath. display:block removes that gap. */
+    display: block;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
