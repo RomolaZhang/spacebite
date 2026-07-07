@@ -6,12 +6,16 @@ copyright: spacecrap
 
 # Allow fetching hotlinked post cover images at build time (used to generate
 # blur-up placeholders for externally hosted images, e.g. GitHub attachments).
+# github.com/user-attachments/... 302-redirects to a signed S3 URL, and Hugo's
+# security policy validates the final redirected URL too, so that host needs
+# to be whitelisted as well, not just the one actually referenced in front matter.
 security:
     http:
         methods:
             - GET
         urls:
             - ^https://github\.com/user-attachments/.+
+            - ^https://github-production-user-asset-[0-9a-f]+\.s3\.amazonaws\.com/.+
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
