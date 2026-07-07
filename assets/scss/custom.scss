@@ -43,3 +43,190 @@
     max-height: 50vh;
     object-fit: cover;
 }
+
+/* Blur-up placeholder while cover images load. The wrapper's background is a tiny
+   (~24px) build-time resize of the actual photo, stretched to cover — it reads as
+   blurred purely from upscaling, no CSS filter needed. The full-size <img> starts
+   transparent and cross-fades in once it fires `onload` (see header.html / tile.html /
+   compact.html), revealing the real photo over its own blurred preview. */
+.lqip-wrap {
+    background-color: var(--card-background);
+    background-size: cover;
+    background-position: center;
+}
+
+.lqip-wrap img {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.lqip-wrap.lqip-loaded img {
+    opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .lqip-wrap img {
+        transition: none;
+    }
+}
+
+/* Plain fade-in for in-post photos (figure shortcode). No blur placeholder here on
+   purpose — by the time a reader scrolls this far the image has usually already
+   loaded, so it's not worth a build-time fetch just for a preview; a soft opacity
+   transition on load is enough to avoid an abrupt pop-in. */
+.article-content img {
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.article-content img.content-image-loaded {
+    opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .article-content img {
+        transition: none;
+    }
+}
+
+/* Morandi-style muted highlight colors, one per heading level */
+:root {
+    --heading-highlight-h1: #c18f7b; /* dusty terracotta */
+    --heading-highlight-h2: #92a081; /* muted sage */
+    --heading-highlight-h3: #c7ab77; /* soft ochre */
+    --heading-highlight-h4: #7f97a0; /* dusty blue */
+    --heading-highlight-h5: #a68fa0; /* muted mauve */
+    --heading-highlight-h6: #a99e8f; /* warm taupe */
+
+    &[data-scheme="dark"] {
+        --heading-highlight-h1: #b98773;
+        --heading-highlight-h2: #8c9a7b;
+        --heading-highlight-h3: #bfa06a;
+        --heading-highlight-h4: #7891a0;
+        --heading-highlight-h5: #9c8698;
+        --heading-highlight-h6: #a1937f;
+    }
+}
+
+/* Highlighter / washi-tape style headings, replacing the theme's left accent border */
+.article-content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        display: inline-block;
+        margin-inline-start: 0;
+        padding-inline-start: 0;
+        border-inline-start: none;
+        position: relative;
+        font-weight: 700;
+        padding: 0.1em 0.35em;
+
+        a.header-anchor {
+            position: static;
+            display: inline-block;
+            width: auto;
+            margin-inline-end: 0.3em;
+            text-align: left;
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0.15em -0.5em;
+            z-index: -1;
+            border-radius: 3px 10px 4px 9px;
+            transform: rotate(calc(var(--heading-rotate-mag) * var(--heading-rotate-sign)))
+                skew(calc(var(--heading-skew-mag) * var(--heading-rotate-sign)));
+        }
+    }
+
+    h1 {
+        color: color-mix(in srgb, var(--card-text-color-main) 80%, var(--heading-highlight-h1) 20%);
+    }
+    h1::before {
+        opacity: 0.4;
+        background-color: var(--heading-highlight-h1);
+        --heading-rotate-mag: 1.8deg;
+        --heading-skew-mag: 4deg;
+    }
+
+    h2 {
+        color: color-mix(in srgb, var(--card-text-color-main) 80%, var(--heading-highlight-h2) 20%);
+    }
+    h2::before {
+        opacity: 0.38;
+        background-color: var(--heading-highlight-h2);
+        --heading-rotate-mag: 1.5deg;
+        --heading-skew-mag: 3deg;
+    }
+
+    h3 {
+        color: color-mix(in srgb, var(--card-text-color-main) 80%, var(--heading-highlight-h3) 20%);
+    }
+    h3::before {
+        opacity: 0.36;
+        background-color: var(--heading-highlight-h3);
+        --heading-rotate-mag: 1.3deg;
+        --heading-skew-mag: 3deg;
+    }
+
+    h4 {
+        color: color-mix(in srgb, var(--card-text-color-main) 80%, var(--heading-highlight-h4) 20%);
+    }
+    h4::before {
+        opacity: 0.34;
+        background-color: var(--heading-highlight-h4);
+        --heading-rotate-mag: 1.1deg;
+        --heading-skew-mag: 2deg;
+    }
+
+    h5 {
+        color: color-mix(in srgb, var(--card-text-color-main) 80%, var(--heading-highlight-h5) 20%);
+    }
+    h5::before {
+        opacity: 0.32;
+        background-color: var(--heading-highlight-h5);
+        --heading-rotate-mag: 1deg;
+        --heading-skew-mag: 2deg;
+    }
+
+    h6 {
+        color: color-mix(in srgb, var(--card-text-color-main) 80%, var(--heading-highlight-h6) 20%);
+    }
+    h6::before {
+        opacity: 0.3;
+        background-color: var(--heading-highlight-h6);
+        --heading-rotate-mag: 0.9deg;
+        --heading-skew-mag: 2deg;
+    }
+
+    /* Flip which side each heading leans to, independent of its level's rotation range,
+       so same-level headings don't all tilt the same direction. Deterministic CSS via
+       nth-child (mod 7, unevenly split so it doesn't read as a simple alternation), no JS. */
+    :is(h1, h2, h3, h4, h5, h6) {
+        &:nth-child(7n + 1)::before {
+            --heading-rotate-sign: -1;
+        }
+        &:nth-child(7n + 2)::before {
+            --heading-rotate-sign: 1;
+        }
+        &:nth-child(7n + 3)::before {
+            --heading-rotate-sign: 1;
+        }
+        &:nth-child(7n + 4)::before {
+            --heading-rotate-sign: -1;
+        }
+        &:nth-child(7n + 5)::before {
+            --heading-rotate-sign: -1;
+        }
+        &:nth-child(7n + 6)::before {
+            --heading-rotate-sign: 1;
+        }
+        &:nth-child(7n)::before {
+            --heading-rotate-sign: -1;
+        }
+    }
+}

@@ -21,8 +21,18 @@ jobs:
           hugo-version: latest
           extended: true
 
+      - name: Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: |
+            resources/_gen
+            .hugo_cache
+          key: hugo-resources-${{ hashFiles('content/**') }}
+          restore-keys: |
+            hugo-resources-
+
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --cacheDir "${{ github.workspace }}/.hugo_cache"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
