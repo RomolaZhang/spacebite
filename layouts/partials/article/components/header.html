@@ -9,7 +9,7 @@
         <div class="article-image lqip-wrap" {{ with $lqipStyle }}style="{{ . | safeCSS }}"{{ end }}>
             <a href="{{ .RelPermalink }}">
                 {{ if $image.resource }}
-                    {{- $Permalink := $image.resource.RelPermalink -}}
+                    {{- $Permalink := "" -}}
                     {{- $Width := $image.resource.Width -}}
                     {{- $Height := $image.resource.Height -}}
                     {{- $Srcset := "" -}}
@@ -21,6 +21,8 @@
                         {{- $Permalink = $thumbnail.RelPermalink -}}
                         {{- $Width = $thumbnail.Width -}}
                         {{- $Height = $thumbnail.Height -}}
+                    {{- else -}}
+                        {{- $Permalink = $image.resource.RelPermalink -}}
                     {{- end -}}
 
                     <img src="{{ $Permalink }}"

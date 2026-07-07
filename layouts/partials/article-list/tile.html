@@ -11,7 +11,7 @@
             <div class="article-image lqip-wrap" {{ with $lqipStyle }}style="{{ . | safeCSS }}"{{ end }}>
                 {{ if $image.resource }}
                     {{- $imageRaw := $image.resource | resources.Fingerprint "md5" -}}
-                    {{- $Permalink := $imageRaw.RelPermalink -}}
+                    {{- $Permalink := "" -}}
                     {{- $Width := $imageRaw.Width -}}
                     {{- $Height := $imageRaw.Height -}}
 
@@ -20,6 +20,8 @@
                         {{- $Permalink = $thumbnail.RelPermalink -}}
                         {{- $Width = $thumbnail.Width -}}
                         {{- $Height = $thumbnail.Height -}}
+                    {{- else -}}
+                        {{- $Permalink = $imageRaw.RelPermalink -}}
                     {{- end -}}
 
                     <img src="{{ $Permalink }}"
