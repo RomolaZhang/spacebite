@@ -15,6 +15,7 @@
              and to get real Width/Height/Srcset instead of the unprocessed fallback). -->
         {{ $try := try (resources.GetRemote $imageValue) }}
         {{ with $try.Err }}
+            {{ warnf "Failed to fetch remote image %q, falling back to unprocessed <img>: %s" $imageValue . }}
         {{ else with $try.Value }}
             {{ if ne .MediaType.SubType "svg+xml" }}
                 {{ $result = merge $result (dict "resource" .) }}
