@@ -1,42 +1,32 @@
 ---
 title: 关于｜About
 slug: about
-description: Everything you need to know about this site and its author.
+description: 本博客食用说明
 date: 2026-05-01
 menu:
     main: 
         weight: -90
 ---
 
-## 关于我～～
+## 关于本人～～
 
 - 思虑过重的INFJ
 - 究极社恐 努力社会化中
 - 爱鸟🐤也爱其他动物🦥
-- 目前最喜欢的拉拉恋综是《恋爱女子宿舍》第一季！
+- 爱做饭也爱吃饭 最喜欢的剧是《想做饭的女人和想吃饭的女人》☺️
 
 
-| Header 1 | Header 2 |
-| --- | --- |
-| Row 1, Col 1 | Row 1, Col 2 |
-| Row 2, Col 1 | Row 2, Col 2 |
+## 关于本博客
 
+- 克服表达羞耻的小小尝试
+- 记录日常所思所想 和很多鸟
 
-### 长什么样
-
-- 思虑过重的INFJ
-- 究极社恐 努力社会化中
-- 爱鸟🐤也爱其他动物🦥
-- 目前最喜欢的拉拉恋综是《恋爱女子宿舍》第一季！
-
-#### 这个呢咋样
-
-# 大标题
 
 
 ---
 
-> "Logic will get you from A to B. Imagination will take you everywhere."  
-> — *Albert Einstein*
+> To see the world, things dangerous to come to. <br>
+> To see behind walls, to draw closer. <br>
+> To find each other and to feel. 
 
 ---
